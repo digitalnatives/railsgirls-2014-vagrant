@@ -1,6 +1,6 @@
-# Install buttefly
+# Manual job to do after vagrant image is up
 
-`sudo pip install butterfly`
+## Create buttefly init script
 
 `sudo mcedit /etc/init/buttefly.conf`
 
@@ -12,15 +12,11 @@
 
     exec butterfly.server.py --host="0.0.0.0"
 
-# Install rubies through rvm
+## Install rubies through rvm
 
 `rvm install ruby-1.9.3-p194`
 `rvm install ruby-2.0.0`
 
-# Modify .bashrc
+## Modify .bashrc
     export LC_CTYPE=en_US.UTF-8
     export LANG=en_US.UTF-8
-
-# Add vagrant user to shared folder group
-
-`sudo adduser vagrant vboxsf`
