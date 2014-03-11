@@ -14,9 +14,9 @@
 
 ## Install rubies through rvm
 
-`rvm install ruby-1.9.3-p194`
-`rvm install ruby-2.0.0`
-`rvm use ruby-1.9.3-p194 --default`
+    rvm install ruby-1.9.3-p194
+    rvm install ruby-2.0.0
+    rvm use ruby-1.9.3-p194 --default
 
 ## Modify .bashrc
     export LC_CTYPE=en_US.UTF-8
